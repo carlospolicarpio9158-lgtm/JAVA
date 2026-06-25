@@ -15,7 +15,7 @@
             int tickets;
             String[] characters = {"Nothing", "Snow White", "Rapunzel", "Ariel", "Egg"};
 
-            System-.out.print("Number of tickets: ");
+            System.out.print("Number of tickets: ");
             tickets = s.nextInt();
 
             for (int i = 1; i <= tickets; i++) {
@@ -37,3 +37,14 @@
                     System.out.println("You got " + characters[4] + "!");
                     uurcount++;
                 }   
+             }
+            System.out.println("\nResults:");
+            System.out.println("R: " + rcount);
+            System.out.println("SR: " + srcount);
+            System.out.println("SSR: " + ssrcount);
+            System.out.println("UR: " + urcount);
+            System.out.println("UUR: " + uurcount);
+            s.close();
+        }
+        
+    }
