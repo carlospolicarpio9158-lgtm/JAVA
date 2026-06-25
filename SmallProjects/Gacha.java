@@ -11,3 +11,12 @@
             int ssrcount = 0;
             int urcount = 0;
             int uurcount = 0;
+
+            int tickets;
+            String[] characters = {"Nothing", "Snow White", "Rapunzel", "Ariel", "Egg"};
+
+            System-.out.print("Number of tickets: ");
+            tickets = s.nextInt();
+
+            for (int i = 1; i <= tickets; i++) {
+                int roll = r.nextInt(100) + 1;
